@@ -1,6 +1,7 @@
 const expect = require('chai').expect;
+const {heapsort} = require('../lib/heapsort') 
 
-describe.skip("heapsort", function() {
+describe("heapsort", function() {
   it("sorts an empty array", function() {
     // Arrange 
     const list = [];
